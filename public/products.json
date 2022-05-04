@@ -1,0 +1,452 @@
+[
+    {
+      "_id": "626f88d5457f0196c57842bf",
+      "supplierName": "Anthony",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/VVk0TQ9/dry-fruits.png",
+      "price": "20",
+      "description": "dry fruits are rich in vitamins and proteins; they also boost immunity and prevent lifestyle diseases such as cholesterol and diabetes. Dry fruits are excellent and healthy substitute for daily snacks.",
+      "name": "Dry-Fruits"
+    },
+    {
+      "_id": "626f88d5a8d2fbfb73d442d7",
+      "supplierName": "Nicholas",
+      "quantity": "67",
+      "picture": "https://i.ibb.co/Tcj7QBv/washington-apple-1087280.png",
+      "price": "34",
+      "description": "The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible.",
+      "name": "Apple"
+    },
+    {
+      "_id": "626f88d5e1470d3453a665ee",
+      "supplierName": "Peter",
+      "quantity": "40",
+      "picture": "https://i.ibb.co/HFjSmz5/Mango.png",
+      "price": "50",
+      "description": "Mango is rich in vitamins, minerals, and antioxidants, and it has been associated with many health benefits, including potential anticancer effects, as well as improved immunity and digestive and eye health.",
+      "name": "Mango"
+    },
+    {
+      "_id": "626f88d575c9a2c26c5c73ac",
+      "supplierName": "Bruce",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/P1MB8dy/kiwi.png",
+      "price": "50",
+      "description": "Kiwis are high in Vitamin C and dietary fiber and provide a variety of health benefits. This tart fruit can support heart health, digestive health, and immunity.",
+      "name": "Kiwi"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Anthony",
+      "quantity": "100",
+      "picture": "https://i.ibb.co/nPHJ3j9/strawberry.png",
+      "price": "30",
+      "description": "A strawberry is both a low-growing, flowering plant and also the name of the fruit that it produces. Strawberries are soft, sweet, bright red berries. They're also delicious.",
+      "name": "Strawberry"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Richard",
+      "quantity": "50",
+      "picture": "https://i.ibb.co/mXRzTqW/blackberry.png",
+      "price": "20",
+      "description": "Blackberries have three stem types: erect, arching, and trailing. They often have thorns, but some varieties are thornless.",
+      "name": "Blackberry"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Adam",
+      "quantity": "20",
+      "picture": "https://i.ibb.co/0cWpn80/pineapple.png",
+      "price": "10",
+      "description": "A pineapple is a large oval fruit that grows in hot countries. It is sweet, juicy, and yellow inside, and it has a thick brownish skin",
+      "name": "Pineapple"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Steven",
+      "quantity": "50",
+      "picture": "https://i.ibb.co/89wVG9n/avocado.png",
+      "price": "22",
+      "description": "Avocado fruits have greenish or yellowish flesh with a buttery consistency and a rich nutty flavour. They are often eaten in salads, and in many parts of the world they are eaten as a dessert.",
+      "name": "Avocado"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Johnny",
+      "quantity": "40",
+      "picture": "https://i.ibb.co/3hJYTSg/Guava.png",
+      "price": "25",
+      "description": "Guava produces solitary white flowers and a berry fruit. The fruit is oval in shape and green to yellow in color. The flesh inside can be white, yellow, pink or red in color and contains numerous yellowish seeds.",
+      "name": "Guava"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Nicholas",
+      "quantity": "50",
+      "picture": "https://i.ibb.co/Lt7mZF3/Lichi.png",
+      "price": "25",
+      "description": "The lychee fruit has a sweet, aromatic taste to it. Some people say it tastes like a grape with a hint of rose.",
+      "name": "Lichi"
+    },
+    {
+      "_id": "626f88d5457f0196c57842bf",
+      "supplierName": "Richard",
+      "quantity": "32",
+      "picture": "https://i.ibb.co/NNH63VS/Orange-Juice.png",
+      "price": "5",
+      "description": "Orange juice is a fruit juice obtained by squeezing, pressing or otherwise crushing the interior of an orange. Orange juice is a nutrition powerhouse with naturally occurring vitamins and minerals and many antioxidants.",
+      "name": "Orange Juice"
+    },
+    {
+      "_id": "626f88d5a8d2fbfb73d442d7",
+      "supplierName": "Brandon",
+      "quantity": "20",
+      "picture": "https://i.ibb.co/W2p7J5F/Apple-juice.png",
+      "price": "10",
+      "description": "Lychee juice is a type of beverage that contains the juice and pulp of the lychee fruit. Ingredients such as water, sugar, citric acid, vitamin C, and sodium benzoate are also commonly found in lychee juice.",
+      "name": "Lichi Juice"
+    },
+    {
+      "_id": "626f88d5e1470d3453a665ee",
+      "supplierName": "William",
+      "quantity": "25",
+      "picture": "https://i.ibb.co/Pg1YhdJ/mango-juice.png",
+      "price": "5",
+      "description": "Fresh mango juice is super refreshing, sweet, slightly tangy, tropical, and thicker than most juices.",
+      "name": "Mango Juice"
+    },
+    {
+      "_id": "626f88d575c9a2c26c5c73ac",
+      "supplierName": "Peter",
+      "quantity": "20",
+      "picture": "https://i.ibb.co/m9yjY7v/guava-juice.png",
+      "price": "5",
+      "description": " Guava's flavor is unique, sweet, and almost universally pleasant. Many people think it tastes like a hybrid between a strawberry and a pear. The sweetness of the fruit depends on which type you're eating.",
+      "name": "Guava Juice"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "William",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/hRyK35B/Mixed-fruit-juice.png",
+      "price": "10",
+      "description": "This mixed fruit juice is made with a combination of the extracts of cranberry, sweet lemon, mango, litchi, orange, apple, guava, pineapple.",
+      "name": "Mixed Fruit Juice"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Anthony",
+      "quantity": "40",
+      "picture": "https://i.ibb.co/B6FZ3Dy/Pomegranate-juice.png",
+      "price": "10",
+      "description": "Pomegranate juice contains higher levels of antioxidants than most other fruit juices. It also has three times more antioxidants than red wine and green tea.",
+      "name": "Pomegranate Juice"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "David",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/7rbc983/strawberry-juice.png",
+      "price": "15",
+      "description": " Strawberry juice is an excellent source of many nutrients and phytochemicals, able to contribute to a healthy diet.",
+      "name": "Strawberry Juice"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": " Mark",
+      "quantity": "25",
+      "picture": "https://i.ibb.co/G7nQkdK/ciwi-juice.png",
+      "price": "15",
+      "description": "The ellipsoidal kiwi fruit is a true berry and has furry brownish green skin.Kiwi juice also contains heart-healthy benefits, including reducing the risk of clots and reducing blood pressure levels.",
+      "name": "Kiwi Juice"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Brandon",
+      "quantity": "20",
+      "picture": "https://i.ibb.co/W2p7J5F/Apple-juice.png",
+      "price": "10",
+      "description": " Whole apples are an extremely healthy food, but apple juice has pros and cons.Cloudy juice with pulp is higher in polyphenols than clear juice.",
+      "name": "Apple Juice"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Peter",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/8r1f5M0/pineapple-juice.png",
+      "price": "5",
+      "description": "Pineapple is a tropical fruit known for its unique taste along with many health benefits.Pineapple juice comes from the fruit of the tropical plant Ananas comosus. ",
+      "name": "Pineapple Juice"
+    },
+    {
+      "_id": "626f88d5457f0196c57842bf",
+      "supplierName": "David",
+      "quantity": "50",
+      "picture": "https://i.ibb.co/QkL3mFY/Pasta.png",
+      "price": "20",
+      "description": "Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking.",
+      "name": "Pasta"
+    },
+    {
+      "_id": "626f88d5a8d2fbfb73d442d7",
+      "supplierName": "Michael",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/zRmTPNp/bagels.png",
+      "price": "35",
+      "description": "Bagels are a type of bread made with flour. They look like doughnuts, and they are leavened with yeast. They have a crisp, shiny crust and a dense inside.",
+      "name": "Bagels"
+    },
+    {
+      "_id": "626f88d5e1470d3453a665ee",
+      "supplierName": "Anthony",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/TPmPvkv/White-Bread.png",
+      "price": "25",
+      "description": "White bread typically refers to breads made from wheat flour from which the bran and the germ layers have been removed from the whole wheatberry as part of the flour grinding or milling process, producing a light-colored flour.",
+      "name": "White Bread"
+    },
+    {
+      "_id": "626f88d575c9a2c26c5c73ac",
+      "supplierName": "William",
+      "quantity": "60",
+      "picture": "https://i.ibb.co/MSYjYRt/Coffee.png",
+      "price": "30",
+      "description": "Coffee is produced from the seeds of a small red (sometimes yellow) fruit that grows on plants halfway in size between shrub and tree.",
+      "name": "Coffee"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Michael",
+      "quantity": "50",
+      "picture": "https://i.ibb.co/MZGpgTS/quinoa.png",
+      "price": "20",
+      "description": "Quinoa is the seed of the Chenopodium quinoa plant.Quinoa is also popular because it’s a gluten-free grain. This means people with celiac disease, wheat allergies or those who avoid gluten can consume it.",
+      "name": "Quinoa"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Raymond",
+      "quantity": "20",
+      "picture": "https://i.ibb.co/dGgQqy2/polenta.png",
+      "price": "15",
+      "description": "polenta, a porridge or mush usually made of ground corn (maize) cooked in salted water. Cheese and butter or oil are often added.",
+      "name": "Polenta"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Michael",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/8sVYZ7B/rice-stick-noodles.png",
+      "price": "25",
+      "description": "Rice noodles, or simply rice noodle, are noodles made from rice. The principal ingredients are rice flour and water. ",
+      "name": "Rice Stick Noodles"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Bruce",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/ZfDBRTz/Oats.png",
+      "price": "25",
+      "description": "Oats, formally named Avena sativa, is a type of cereal grain from the Poaceae grass family of plants. The grain refers specifically to the edible seeds of oat grass, which is what ends up in our breakfast bowls.",
+      "name": "Oats"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Adam",
+      "quantity": "25",
+      "picture": "https://i.ibb.co/Gcn0PZB/muffin.png",
+      "price": "20",
+      "description": "A muffin is a small baked good made from batter.The only real difference between a slice of cake and a muffin is the shape.",
+      "name": "Muffin"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Michael",
+      "quantity": "26",
+      "picture": "https://i.ibb.co/sWLF3FQ/couscous.png",
+      "price": "15",
+      "description": "Couscous is a tiny pasta made of wheat or barley. Although couscous was traditionally hand-rolled, these days it's made by machine.",
+      "name": "Couscous"
+    },
+    {
+      "_id": "626f88d5457f0196c57842bf",
+      "supplierName": "Johnny",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/25GT2wy/tomato.png",
+      "price": "20",
+      "description": "Tomato is one of the most important vegetable plants in the world. It originated in western South America, and domestication is thought to have occurred in Central America.",
+      "name": "Tomato"
+    },
+    {
+      "_id": "626f88d5a8d2fbfb73d442d7",
+      "supplierName": "Robert",
+      "quantity": "35",
+      "picture": "https://i.ibb.co/N1LJ3P1/carrot.png",
+      "price": "30",
+      "description": "The carrot is a root vegetable, typically orange in color, though purple, black, red, white, and yellow cultivars exist,[2][3][4] all of which are domesticated forms of the wild carrot.",
+      "name": "Carrot"
+    },
+    {
+      "_id": "626f88d5e1470d3453a665ee",
+      "supplierName": "Anthony",
+      "quantity": "50",
+      "picture": "https://i.ibb.co/3hHjZJy/fresh-green-capsicum.png",
+      "price": "30",
+      "description": "Capsicum is a genus of flowering plants in the nightshade family Solanaceae, native to the Americas, cultivated worldwide for their chili pepper or bell pepper fruit.",
+      "name": "Green-Capsicum"
+    },
+    {
+      "_id": "626f88d575c9a2c26c5c73ac",
+      "supplierName": "Nicholas",
+      "quantity": "50",
+      "picture": "https://i.ibb.co/N129hsn/brokoli.png",
+      "price": "35",
+      "description": "Broccoli, Brassica oleracea, is an herbaceous annual or biennial grown for its edible flower heads which are used as a vegetable.",
+      "name": "Broccoli"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Bruce",
+      "quantity": "50",
+      "picture": "https://i.ibb.co/3s7fWnG/cabbage.png",
+      "price": "30",
+      "description": "The red cabbage, also called purple cabbage, is an edible cabbage of a highly appreciated slightly sweet taste, characterized by the beautiful purple, magenta or dark purple colour of its leaves.",
+      "name": "Red-Cabbage"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Raymond",
+      "quantity": "20",
+      "picture": "https://i.ibb.co/x1GczFv/garlic.png",
+      "price": "15",
+      "description": "Garlic is the small, white, round bulb of a plant that is related to the onion plant. Garlic has a very strong smell and taste and is used in cooking.",
+      "name": "Garlic"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Robert",
+      "quantity": "25",
+      "picture": "https://i.ibb.co/QMsS3jF/onion.png",
+      "price": "15",
+      "description": "The onion also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium.",
+      "name": "Onion"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Nicholas",
+      "quantity": "20",
+      "picture": "https://i.ibb.co/ygP3dL0/letus.png",
+      "price": "15",
+      "description": "Lettuce, Lactuca sativa, is a leafy herbaceous annual or biennial plant in the family Asteraceae grown for its leaves which are used as a salad green.",
+      "name": "Letus-Leaf"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "David",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/8dN2XX0/green-chili.png",
+      "price": "15",
+      "description": "A green chilli is an important star in Indian cooking. This spice is grown throughout the year and so there is no scarcity and a good quantity is exported.",
+      "name": "Green-Chili"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Steven",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/F6xZy2h/potato.png",
+      "price": "10",
+      "description": "Potato, Solanum tuberosum, is an herbaceous perennial plant in the family Solanaceae which is grown for its edible tubers.",
+      "name": "Potato"
+    },
+    {
+      "_id": "626f88d5457f0196c57842bf",
+      "supplierName": "Nicholas",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/G2BJQT7/brown-sugar.png",
+      "price": "25",
+      "description": "Brown sugar is granulated cane sugar with added molasses. It is coarser and more moist than white sugar and imparts a unique flavor and dark color to food systems.",
+      "name": "Brown Sugar"
+    },
+    {
+      "_id": "626f88d5a8d2fbfb73d442d7",
+      "supplierName": "Brandon",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/QbMpVrX/floor-cleaner.png",
+      "price": "20",
+      "description": "Liquid Cleaner is a concentrated, pH-neutral all purpose cleaner for washable hard surfaces. It is free-rinsing, leaves no film and has a pleasant scent.",
+      "name": "Floor Cleaner"
+    },
+    {
+      "_id": "626f88d5e1470d3453a665ee",
+      "supplierName": "Bruce",
+      "quantity": "20",
+      "picture": "https://i.ibb.co/fH0r5X0/Baking-Soda-and-Baking-Powder-5.png",
+      "price": "10",
+      "description": "Baking powder is a chemical leavening agent. Chemical leavening agents added to doughs and batters undergo various decomposition .",
+      "name": "Baking Powder"
+    },
+    {
+      "_id": "626f88d575c9a2c26c5c73ac",
+      "supplierName": "Robert",
+      "quantity": "40",
+      "picture": "https://i.ibb.co/CsK38nG/cookie.png",
+      "price": "20",
+      "description": "A cookie is a small sweet, crispy or cake-like pastry often made with flour, sugar, liquid and fat. They have high sugar and fat contents and low moisture.",
+      "name": "Cookies"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Adam",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/G7FVCqv/nutritional-yeast.png",
+      "price": "25",
+      "description": "Nutritional yeast, also called “nooch,” is a popular food product often used in vegan cooking.This powdered yeast gets its name from the nutrients it contains, including protein and a wide array of vitamins, minerals, and antioxidants.",
+      "name": "Nutritional Yeast"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Johnny",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/SfWG5dj/white-vinegar.png",
+      "price": "15",
+      "description": "White vinegar is sometimes also referred to as spirit vinegar. Contrary to its name, white vinegar is actually clear. It is usually produced from sugar cane, the extract of which is put through acid fermentation.",
+      "name": "White Vinegar"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Robert",
+      "quantity": "25",
+      "picture": "https://i.ibb.co/T4s28jL/jam.png",
+      "price": "15",
+      "description": " Organic jams are made with fruits without pesticides · More fruit and less sugar ·Some of the most common fruits are berries, apricots, grapes, figs and peaches. These fruits will vary in their sweetness; therefore, use the sugar accordingly.",
+      "name": "Jam"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Raymond",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/LZF0whJ/pickle.png",
+      "price": "10",
+      "description": "Buy 100% Organic Natural Pickle  Online. It is Made from 100% Organic Natural Ingredients like Garlic, Lemon, Mangoes, etc.",
+      "name": "Pickle"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Brandon",
+      "quantity": "30",
+      "picture": "https://i.ibb.co/h1spySQ/tomato-ketchup.png",
+      "price": "20",
+      "description": "Orchard Lane Organic Tomato Ketchup is made from certified organic tomatoes native to south India. There are no preservatives or chemicals used in making it.",
+      "name": "Tomato Ketchup"
+    },
+    {
+      "_id": "626f88d5701a02d8157672c4",
+      "supplierName": "Robert",
+      "quantity": "25",
+      "picture": "https://i.ibb.co/VJzqYXB/Oliv-oil.png",
+      "price": "20",
+      "description": "Extra virgin olive oil is loaded with heart-healthy fats and antioxidants, making it a great addition to a nutritious diet. It has also been linked to a long list of benefits and may protect against inflammation, heart disease.",
+      "name": "Olive Oil"
+    }
+  ]
