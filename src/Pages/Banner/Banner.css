@@ -1,7 +1,22 @@
 .banner{
     background-color: rgba(110, 180, 110, 0.685);
+    width:100%
 }
 
-@media only screen  {
-    
+@media only screen and (max-width:576px)  {
+    .banner img{
+        width: 200px;
+    }
+    .banner h2{
+        color: black;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .banner img{
+        width: 150px;
+    }
+    .banner h2{
+        color: black;
+    }
 }
