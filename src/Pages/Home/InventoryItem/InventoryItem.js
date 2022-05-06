@@ -20,7 +20,7 @@ const InventoryItem = () => {
 
             </div>
             <Link to='/manageinventory'>
-                <button  className='  mt-3 btn btn-outline-dark'>Manage Inventory</button>
+                <button  className=' btn-center mt-3 btn btn-outline-dark'>Manage Inventory</button>
             </Link>
         </div>
     );
