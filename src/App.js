@@ -6,6 +6,9 @@ import Footer from "../src/Pages/Shared/Footer/Footer";
 import Blog from './Pages/Blog/Blog';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import ManageInventory from './Pages/Home/ManageInventory/ManageInventory';
+import ItemsDetails from './Pages/Home/ItemsDetails/ItemsDetails';
+import Login from './Pages/Home/Login/Login/Login';
+import Register from './Pages/Home/Login/Register/Register';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/manageinventory' element={<ManageInventory></ManageInventory>}></Route>
+        <Route path='/inventory/:inventoryId' element={<ItemsDetails></ItemsDetails>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*'  element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>

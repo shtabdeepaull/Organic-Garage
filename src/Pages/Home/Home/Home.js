@@ -5,10 +5,10 @@ import InventoryItem from '../InventoryItem/InventoryItem';
 
 const Home = () => {
     return (
-        <div>
+        <>
            <Banner></Banner> 
            <InventoryItem></InventoryItem>
-        </div>
+        </>
     );
 };
 
