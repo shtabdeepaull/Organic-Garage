@@ -1,4 +1,5 @@
 import useProducts from '../../../hooks/useProducts';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 import ManageItem from "../ManageItem/ManageItem";
 import './ManageInventory.css';
 
@@ -8,6 +9,7 @@ const ManageInventory = () => {
 
     return (
         <div>
+            <PageTitle title="Manage Inventory"></PageTitle>
             <h1 className='text-center m-4 text-secondary'>All Items</h1>
             <div className='items-container'>
             {

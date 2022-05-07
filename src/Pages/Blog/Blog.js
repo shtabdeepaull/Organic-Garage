@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
+import PageTitle from '../Shared/PageTitle/PageTitle';
 
 const Blog = () => {
   return (
     <div>
+      <PageTitle title="Blog"></PageTitle>
        <h2 className='text-center mt-2'>QN Section</h2>
       <CardGroup>
         <Card className='d-flex text-center bg-secondary mt-4'>

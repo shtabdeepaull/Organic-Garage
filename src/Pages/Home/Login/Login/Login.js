@@ -1,13 +1,14 @@
 import React, { useRef } from 'react';
-import { Button, Form, ToastContainer } from 'react-bootstrap';
+import { Button, Form  } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import { async } from '@firebase/util';
 import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../../../firebase.init';
 import Loading from '../../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import PageTitle from '../../../Shared/PageTitle/PageTitle';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -65,6 +66,7 @@ const Login = () => {
 
     return (
         <div className='container w-50 mx-auto'>
+            <PageTitle title="Login"></PageTitle>
             <h2 className='text-secondary text-center mt-2'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
