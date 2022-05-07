@@ -11,6 +11,7 @@ import AddNewItem from './Pages/AddNewItem/AddNewItem';
 import Login from './Pages/Home/Login/Login/Login';
 import Register from './Pages/Home/Login/Register/Register';
 import RequireAuth from './Pages/Home/Login/RequireAuth/RequireAuth';
+import MyItem from './Pages/MyItem/MyItem';
 
 function App() {
   return (
@@ -26,9 +27,13 @@ function App() {
             <ItemsDetails></ItemsDetails>
           </RequireAuth>
         }></Route>
-        <Route path='/addnewitem' element={
+        <Route path='/additem' element={
           <RequireAuth>
             <AddNewItem></AddNewItem>
+          </RequireAuth>}></Route>
+        <Route path='/myitem' element={
+          <RequireAuth>
+            <MyItem></MyItem>
           </RequireAuth>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>

@@ -12,4 +12,3 @@ const useProducts  = () => {
        
 }
 export default useProducts;
-// console.log(useProducts);

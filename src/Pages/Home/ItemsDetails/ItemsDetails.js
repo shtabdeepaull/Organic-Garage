@@ -1,4 +1,3 @@
-import { Button } from 'bootstrap';
 import React, { useEffect, useState } from 'react';
 import { Card } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
@@ -30,7 +29,6 @@ const ItemsDetails = () => {
                     <Card.Text>
                         <small>Description:{product.description}</small>
                     </Card.Text>
-
                 </Card.Body>
             </Card>
             </div>
