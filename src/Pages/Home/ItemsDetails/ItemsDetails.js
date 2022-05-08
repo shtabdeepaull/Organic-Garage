@@ -27,7 +27,7 @@ const ItemsDetails = () => {
                         <p>Quantity:{product.quantity}</p>
                         <p>SupplerName:{product.supplierName}</p>
                     <Card.Text>
-                        <small>Description:{product.description}</small>
+                        <small>Description:{product.description?.length > 110? product.description.slice(0,120)+'...' : product.description}</small>
                     </Card.Text>
                 </Card.Body>
             </Card>

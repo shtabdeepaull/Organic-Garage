@@ -11,14 +11,14 @@ const ManageItem = ({product}) => {
     return (
         <div className='product shadow-lg'>
             <img className='w-100' src={picture} alt="" />
-            <h4>{name}</h4>
+            <h4 style={{color:"#66ff99"}}>{name}</h4>
             <p>SupplierName:{supplierName}</p>
             <p>Price:${price}</p>
             <p>Quantity:{quantity}</p>
-            <p><small>{description}</small></p>
+            <p><small>{description?.length > 110 ? description.slice(0,110)+'...' : description }</small></p>
            <div className='d-flex justify-content-evenly rounded text-center'>
-           <button className='btn btn-outline-dark'>Delete</button>
-            <button onClick={() => navigateToItemDetails(_id)} className='btn btn-outline-dark'>Update</button>
+           <button className='btn btn-success btn-opacity-50  '>Delete</button>
+            <button onClick={() => navigateToItemDetails(_id)}  className='btn btn-success bg-opacity-50 '>Update</button>
            </div>
         </div>
     );

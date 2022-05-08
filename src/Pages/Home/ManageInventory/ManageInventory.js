@@ -61,7 +61,7 @@ const ManageInventory = () => {
                 </select>
             </div>
             
-            <button onClick={navigateToAddItem} className='btn btn-outline-dark d-block mx-auto'>Add Item</button>
+            <button onClick={navigateToAddItem} className='btn btn-outline-dark m-3 d-block mx-auto'>Add Item</button>
         </div>
     );
 };

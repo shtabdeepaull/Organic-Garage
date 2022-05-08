@@ -14,7 +14,7 @@ const Header = () => {
     signOut(auth);
   }
     return (
-      <Navbar sticky='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar sticky='top' collapseOnSelect expand="lg" bg="success" className='bg-opacity-75' variant="dark">
   <Container>
   <Navbar.Brand as={Link} to="/">
       <img src={logo} height="30" alt="" />
@@ -24,6 +24,7 @@ const Header = () => {
     <Nav className="me-auto">
       <Nav.Link as={Link} to="/home">Home</Nav.Link>
       <Nav.Link as={Link} to="blog">Blog</Nav.Link>
+      <Nav.Link as={Link} to="aboutus">About Us</Nav.Link>
       <Nav.Link as={Link} to="manageinventory">Manage Inventory</Nav.Link>
     </Nav>
     <Nav>

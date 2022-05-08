@@ -7,7 +7,7 @@ const Blog = () => {
     <div>
       <PageTitle title="Blog"></PageTitle>
        <h2 className='text-center mt-2'>QN Section</h2>
-      <CardGroup>
+      <CardGroup className='m-3'>
         <Card className='d-flex text-center bg-secondary mt-4'>
           <Card.Body>
             <Card.Title className='fs-6 bg-light text-center w-50 mx-auto'>Difference Between Javascript And Node JS</Card.Title>
