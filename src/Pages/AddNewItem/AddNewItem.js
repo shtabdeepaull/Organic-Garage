@@ -15,7 +15,7 @@ const AddNewItem = () => {
             description: event.target.description.value,
             picture: event.target.picture.value,
         }
-        const url = `http://localhost:5000/product`;
+        const url = `https://protected-forest-84761.herokuapp.com/product`;
         fetch(url,{
             method: 'POST',
             headers: {
@@ -48,7 +48,7 @@ const AddNewItem = () => {
                 <br />
                 <input className='w-100 mb-2' type="text" name="picture" placeholder='Photo URL'/>
                 <br />
-                <input className="btn btn-outline-dark d-block mx-auto" type="submit" value="Add New Item" />
+                <input className="btn m-2 btn-outline-dark d-block mx-auto" type="submit" value="Add New Item" />
             </form>
         </div>
     );

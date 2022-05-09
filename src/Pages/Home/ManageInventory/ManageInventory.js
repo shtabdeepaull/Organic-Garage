@@ -13,13 +13,13 @@ const ManageInventory = () => {
     const navigate = useNavigate();
     
         useEffect( () => {
-            fetch(`http://localhost:5000/product?page=${page}&size=${size} `)
+            fetch(`https://protected-forest-84761.herokuapp.com/product?page=${page}&size=${size} `)
             .then(res => res.json())
             .then(data => setProducts(data))
         },[page, size]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/productCount')
+        fetch('https://protected-forest-84761.herokuapp.com/productCount')
             .then(res => res.json())
             .then(data => {
                 const count = data.count;
@@ -32,6 +32,7 @@ const ManageInventory = () => {
         navigate('/additem');
     }
 
+   
     return (
         <div>
             <PageTitle title="Manage Inventory"></PageTitle>
@@ -41,8 +42,9 @@ const ManageInventory = () => {
                     products.map(product => <ManageItem
                         key={product._id}
                         product={product}
-                    ></ManageItem>)
+                    ></ManageItem>) 
                 }
+                
             </div>
             <div className=' d-block mx-auto'>
                 {
